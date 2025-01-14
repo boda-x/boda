@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>امتحان إدارة الأعمال</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question input {
+            margin-left: 10px;
+        }
+        .submit-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>امتحان إدارة الأعمال - الصف الأول الثانوي التجاري</h1>
+    <form action="#" method="post">
+        <div class="question">
+            <p>1. ما هي وظيفة "التخطيط" في الإدارة؟</p>
+            <label><input type="radio" name="q1" value="a"> وضع الاستراتيجيات لتوجيه أنشطة المنظمة.</label><br>
+            <label><input type="radio" name="q1" value="b"> تحديد الأهداف المستقبلية وتوزيع الموارد.</label><br>
+            <label><input type="radio" name="q1" value="c"> حل المشكلات اليومية التي يواجهها الموظفون.</label><br>
+            <label><input type="radio" name="q1" value="d"> تحديد الأجور والمكافآت للموظفين.</label>
+        </div>
+        <!-- أضف بقية الأسئلة بنفس الطريقة -->
+        <div class="question">
+            <p>2. من المهام الأساسية للإدارة؟</p>
+            <label><input type="radio" name="q2" value="a"> التنظيم، التوجيه، التخطيط، الرقابة.</label><br>
+            <label><input type="radio" name="q2" value="b"> تحليل البيانات المالية فقط.</label><br>
+            <label><input type="radio" name="q2" value="c"> تقييم الإنتاج فقط.</label><br>
+            <label><input type="radio" name="q2" value="d"> تحديد الأسعار فقط.</label>
+        </div>
+        
+        <!-- أضف بقية الأسئلة هنا -->
+
+        <button class="submit-button" type="submit">إرسال الإجابات</button>
+    </form>
+</body>
+</html>
